@@ -1,0 +1,9 @@
+{
+    "imports": {
+      "preact": "https://esm.sh/preact@10.11.0",
+      "preact/hooks": "https://esm.sh/preact@10.11.0/hooks",
+      "oak": "https://deno.land/x/oak/mod.ts",
+      "postgres": "https://deno.land/x/postgres/mod.ts",
+      "graphql-yoga": "https://esm.sh/graphql-yoga@2.7.0"
+    }
+  }
