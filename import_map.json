@@ -2,8 +2,11 @@
     "imports": {
       "preact": "https://esm.sh/preact@10.11.0",
       "preact/hooks": "https://esm.sh/preact@10.11.0/hooks",
+      "preact/jsx-runtime": "https://esm.sh/preact@10.11.0/jsx-runtime",
       "oak": "https://deno.land/x/oak/mod.ts",
       "postgres": "https://deno.land/x/postgres/mod.ts",
-      "graphql-yoga": "https://esm.sh/graphql-yoga@2.7.0"
+      "graphql-yoga": "https://cdn.skypack.dev/graphql-yoga@2.13.10",
+      "graphql": "https://esm.sh/graphql@16.6.0",
+      "extract-files": "https://cdn.skypack.dev/extract-files@11.0.0"
     }
   }

@@ -1,4 +1,3 @@
-import { makeExecutableSchema } from "graphql-yoga";
 import { query } from "./db.ts";
 
 const typeDefs = `
@@ -47,4 +46,4 @@ const resolvers = {
     },
 };
 
-export const schema = makeExecutableSchema({ typeDefs, resolvers });
+export { typeDefs, resolvers };
